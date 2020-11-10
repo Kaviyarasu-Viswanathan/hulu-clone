@@ -1,0 +1,30 @@
+.videoCard {
+  color: white;
+  height: 100px;
+  padding: 50px;
+  transition: transform 100ms;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-left: 10px;
+  margin-top: 20px;
+  padding-bottom: 180px;
+}
+
+.videoCard:hover {
+  transform: scale(1.09);
+}
+
+.videoCard > img {
+  object-fit: contain;
+  width: 350px;
+  margin-top: 40px;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.videoCard > h4 {
+  padding-top: 10px;
+}
+.videoCard > p {
+  color: gray;
+}
